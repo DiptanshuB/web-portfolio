@@ -1,6 +1,7 @@
 
 
 body {
+    margin: 0%;
   font-family: "Manuale", serif;
   font-optical-sizing: auto;
 
@@ -21,5 +22,54 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 70%;
+}
+.top-banner{
+   
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon tomato);
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: wheat;
+    font-weight: bold;
+}
+.Dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.half-width-single{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+    background: white;
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon tomato);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
