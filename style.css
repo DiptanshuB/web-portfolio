@@ -1,7 +1,7 @@
 
 
 body {
-    margin: 0%;
+   margin: 0%;
   font-family: "Manuale", serif;
   font-optical-sizing: auto;
 
@@ -22,7 +22,8 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 70%;
+    width: 80%;
+    overflow: hidden;
 }
 .top-banner{
    
@@ -30,6 +31,7 @@ h1{
     background-repeat: no-repeat;
 }
 section{
+    border: 1px solid red;
     height: 500px;
 }
 .button{
@@ -61,12 +63,12 @@ section{
 }
 #full{
     border-left: 7px solid;
-    border-image: linear-gradient(lightsalmon tomato);
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
     border-image-slice: 1;
 }
 #baby{
-    border-left: 7px solid;
-    border-image: linear-gradient(lightsalmon tomato);
+    border-left: 7px solid; 
+    border-image: linear-gradient(180deg,blue, cyan); 
     border-image-slice: 1;
 
 }
